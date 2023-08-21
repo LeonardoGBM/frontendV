@@ -1,0 +1,72 @@
+<div class="container-fluid">
+    <app-nav></app-nav>
+    <div class="row">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-start">
+                <app-sidebar></app-sidebar>
+                <app-breadcrum></app-breadcrum>
+            </div>
+        </div>
+        <div class="col-12" style="margin-left: 50px;">
+
+            <div class="row" style="margin-right: 150px;">
+                <div class="col-6">
+                    <h2 class="m-5">Clientes</h2>
+                    <h5 class="m-5">Consulta los clientes correspondientes a la aplicación</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end mt-5">
+                    <i class="fa-solid fa-users fa-5x" style="color: #3f51b5;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid" style="margin-right: 50px; margin-left: 30px;">
+        <div class="col-12">
+            <hr class="w-100 border-4" style="color: blue; ">
+        </div>
+    </div>
+    <div class="row border border-solid border-1" style="margin-right: 50px; margin-left: 30px;">
+
+        <div class="row mt-4 mb-4">
+            <div class="col-md-1" style="margin-left: 10px;">
+                <h5>Buscar</h5>
+            </div>
+            <div class="col-md-9">
+                <app-buscador></app-buscador>
+            </div>
+            <div class="col-md-1">
+                <p-button icon="pi pi-search" label="Buscar" styleClass="p-button-outlined large-button"></p-button>
+            </div>
+        </div>
+
+        <div class="row mt-4 mb-4">
+            <div class="col-md-1" style="margin-left: 10px;">
+                <h5>Estado</h5>
+            </div>
+            <div class="col-md-8">
+                <app-buscador></app-buscador>
+            </div>
+            <div class="col-md-2 d-flex justify-content-end" style="margin-left: 30px;">
+                <p-button icon="pi pi-filter" label="Limpiar Filtros"
+                    styleClass="p-button-outlined p-button-danger large-button"></p-button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 mt-3 d-flex justify-content-start" style="margin-left: 30px;">
+            <div>
+                <app-opciones></app-opciones>
+            </div>
+            <div style="margin-left: 1410px;">
+                <p-button icon="fa-solid fa-plus" styleClass="p-button-raised"></p-button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 mt-3" style="padding-left: 40px; padding-right: 60px;">
+            <app-tabla></app-tabla>
+        </div>
+    </div>
+
+</div>
