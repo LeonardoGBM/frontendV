@@ -1,9 +1,12 @@
-*{
-    margin:none;
-    padding:none;
-    border:none;
+
+.estilos{
+    background: #3f51b5;
 }
-.nav{
-    background:#3f51b5;
+.color{
+    background: white;
+    padding: 100px;
 }
+    
+
+
 

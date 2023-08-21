@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./tabla.component.css']
 })
 export class TablaComponent {
+  products=[{
+    name:"fgfsdg",
+    price:44,
+    category:"gg",
+    orders: [{
+      id:1,
+      
+    }]
+  }];
+
 
 }
+  
+
