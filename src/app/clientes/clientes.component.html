@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid mb-5">
     <app-nav></app-nav>
     <div class="row">
         <div class="row">
@@ -29,28 +29,23 @@
     <div class="row border border-solid border-1" style="margin-right: 50px; margin-left: 30px;">
 
         <div class="row mt-4 mb-4">
-            <div class="col-md-1" style="margin-left: 10px;">
+            <span class="d-flex justify-content-between">
                 <h5>Buscar</h5>
-            </div>
-            <div class="col-md-9">
-                <app-buscador></app-buscador>
-            </div>
-            <div class="col-md-1">
+                <div class="col-md-8">
+                    <app-buscador></app-buscador>
+                </div>
                 <p-button icon="pi pi-search" label="Buscar" styleClass="p-button-outlined large-button"></p-button>
-            </div>
+            </span>
         </div>
 
         <div class="row mt-4 mb-4">
-            <div class="col-md-1" style="margin-left: 10px;">
+            <span class="d-flex justify-content-between">
                 <h5>Estado</h5>
-            </div>
-            <div class="col-md-8">
-                <app-buscador></app-buscador>
-            </div>
-            <div class="col-md-2 d-flex justify-content-end" style="margin-left: 30px;">
-                <p-button icon="pi pi-filter" label="Limpiar Filtros"
-                    styleClass="p-button-outlined p-button-danger large-button"></p-button>
-            </div>
+                <div class="col-md-8">
+                    <app-buscador></app-buscador>
+                </div>
+                <p-button icon="pi pi-filter" label="Limpiar Filtros" styleClass="p-button-outlined p-button-danger large-button"></p-button>
+            </span>
         </div>
     </div>
     <div class="row">

@@ -39,7 +39,7 @@ import { CategoriaComponent } from './categoria/categoria.component';
     BuscadorComponent,
     OpcionesComponent,
     LoginComponent,
-    CategoriaComponent
+    CategoriaComponent,
   ],
   imports: [
     BrowserModule,

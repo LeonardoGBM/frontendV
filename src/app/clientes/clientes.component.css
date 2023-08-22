@@ -1,6 +1,7 @@
 .container-fluid {
-        overflow: hidden; 
-    }
+    overflow: hidden; 
+    padding: 0;
+}
 
 
 
