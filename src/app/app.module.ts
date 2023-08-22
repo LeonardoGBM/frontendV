@@ -23,6 +23,11 @@ import { OpcionesComponent } from './opciones/opciones.component';
 import { DropdownModule } from 'primeng/dropdown';
 import { LoginComponent } from './login/login.component';
 import { CategoriaComponent } from './categoria/categoria.component';
+import { AplicacionesComponent } from './aplicaciones/aplicaciones.component';
+import { CaruselComponent } from './carusel/carusel.component';
+import { CarouselModule } from 'primeng/carousel';
+import { TabmenuComponent } from './tabmenu/tabmenu.component';
+import { TabMenuModule } from 'primeng/tabmenu';
 
 
 
@@ -40,6 +45,9 @@ import { CategoriaComponent } from './categoria/categoria.component';
     OpcionesComponent,
     LoginComponent,
     CategoriaComponent,
+    AplicacionesComponent,
+    CaruselComponent,
+    TabmenuComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,7 +60,9 @@ import { CategoriaComponent } from './categoria/categoria.component';
     SidebarModule,
     TableModule,
     AutoFocusModule,
-    DropdownModule
+    DropdownModule,
+    CarouselModule,
+    TabMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

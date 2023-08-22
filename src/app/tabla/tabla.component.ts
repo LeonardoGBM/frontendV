@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TablaComponent {
   products=[{
-    id:1,
+    id:1, 
     name:"fgfsdg",
     price:44,
     category:"gg",

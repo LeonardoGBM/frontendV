@@ -97,15 +97,33 @@
                                     <td>leo</td>
                                     <td>lo logre</td>
                                     <td>XD</td>
-                                   
                                 </tr>
+                                
+                            </ng-template>
+                            <ng-template pTemplate="body" let-order let-expanded="expanded">
+                                            
                             </ng-template>
                             <ng-template pTemplate="emptymessage">
                                 <tr>
                                     <td colspan="6">There are no order for this product yet.</td>
                                 </tr>
-                            </ng-template>
+                            </ng-template>   
                         </p-table>
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-center">
+                                <h3>Elementos del aplicativo</h3>
+                            </div>
+                        </div> 
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-center">
+                                <app-tabmenu></app-tabmenu>
+                            </div>
+                        </div>   
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-center">
+                                <app-carusel></app-carusel>
+                            </div>
+                        </div>   
                     </div>
                 </td>
             </tr>

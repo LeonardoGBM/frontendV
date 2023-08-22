@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 
 
@@ -6,7 +6,8 @@ import { MenuItem } from 'primeng/api';
 @Component({
   selector: 'app-breadcrum',
   templateUrl: './breadcrum.component.html',
-  styleUrls: ['./breadcrum.component.css']
+  styleUrls: ['./breadcrum.component.css'],
+  encapsulation:ViewEncapsulation.None,
 })
 export class BreadcrumComponent implements OnInit {
   items: MenuItem[] | undefined;
