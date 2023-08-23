@@ -32,7 +32,9 @@ import { TabViewModule } from 'primeng/tabview';
 import { StepsModule } from 'primeng/steps';
 import { FormularioAComponent } from './formulario-a/formulario-a.component';
 import { StepsComponent } from './steps/steps.component';
-
+import { RegistropuertosComponent } from './registropuertos/registropuertos.component';
+import { SliderComponent } from './slider/slider.component';
+import { SliderModule } from 'primeng/slider';
 
 
 @NgModule({
@@ -54,6 +56,8 @@ import { StepsComponent } from './steps/steps.component';
     TabmenuComponent,
     FormularioAComponent,
     StepsComponent,
+    RegistropuertosComponent,
+    SliderComponent,
   ],
   imports: [
     BrowserModule,
@@ -70,7 +74,8 @@ import { StepsComponent } from './steps/steps.component';
     CarouselModule,
     TabMenuModule,
     TabViewModule,
-    StepsModule
+    StepsModule,
+    SliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
