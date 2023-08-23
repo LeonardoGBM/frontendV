@@ -28,6 +28,10 @@ import { CaruselComponent } from './carusel/carusel.component';
 import { CarouselModule } from 'primeng/carousel';
 import { TabmenuComponent } from './tabmenu/tabmenu.component';
 import { TabMenuModule } from 'primeng/tabmenu';
+import { TabViewModule } from 'primeng/tabview';
+import { StepsModule } from 'primeng/steps';
+import { FormularioAComponent } from './formulario-a/formulario-a.component';
+import { StepsComponent } from './steps/steps.component';
 
 
 
@@ -48,6 +52,8 @@ import { TabMenuModule } from 'primeng/tabmenu';
     AplicacionesComponent,
     CaruselComponent,
     TabmenuComponent,
+    FormularioAComponent,
+    StepsComponent,
   ],
   imports: [
     BrowserModule,
@@ -62,7 +68,9 @@ import { TabMenuModule } from 'primeng/tabmenu';
     AutoFocusModule,
     DropdownModule,
     CarouselModule,
-    TabMenuModule
+    TabMenuModule,
+    TabViewModule,
+    StepsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

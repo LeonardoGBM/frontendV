@@ -3,18 +3,23 @@
     <p-carousel [value]="products" [numVisible]="3" [numScroll]="1" [responsiveOptions]="responsiveOptions">
         <ng-template let-product pTemplate="item">
             <div class="product-item">
-                <div class="product-item-content">
-                    <div class="mb-3">
-                        <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="product-image" />
-                    </div>
+                <div class="mb-1 bg-primary">
+                    <h5 class="mb-1 bg-primary">{{ product.bd }}</h5>
+                </div>
+                <div class="product-item-content" style="margin-left: 10px;">
                     <div>
-                        <h4 class="mb-1">{{ product.name }}</h4>
-                        <h6 class="mt-0 mb-3">{{ '$' + product.price }}</h6>
-                        <div class="car-buttons mt-5">
-                            <p-button type="button" styleClass="p-button p-button-rounded mr-2" icon="pi pi-search"></p-button>
-                            <p-button type="button" styleClass="p-button-success p-button-rounded mr-2" icon="pi pi-star-fill"></p-button>
+                        <h6 class="mt-0 mb-3">{{ '$' + product.puerto }}</h6>
+                        <h6 class="mt-0 mb-3">{{ '$' + product.gestor }}</h6>
+                        <h6 class="mt-0 mb-3">{{ '$' + product.nombre }}</h6>
+                        <h6 class="mt-0 mb-3">{{ '$' + product.usuario }}</h6>
+                        <h6 class="mt-0 mb-3">{{ '$' + product.contrasena }}</h6>
+                        <h6 class="mt-0 mb-3">{{ '$' + product.fecha }}</h6>
+
+                        <div class="mt-5">
+                            <p-button icon="pi-file-edit" label="Editar" styleClass="edit p-button-outlined p-button-primary"></p-button>
+                            <p-button icon="pi pi-check" label="Verificar" styleClass=" veri p-button-outlined p-button-success"></p-button>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </ng-template>
