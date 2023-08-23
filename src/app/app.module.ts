@@ -37,6 +37,7 @@ import { SliderComponent } from './slider/slider.component';
 import { SliderModule } from 'primeng/slider';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -76,6 +77,7 @@ import { SliderModule } from 'primeng/slider';
     TabViewModule,
     StepsModule,
     SliderModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
